@@ -15,13 +15,6 @@ A modern food delivery web application built using **React**, **Context API**, a
 
 ---
 
-## 📸 Screenshots
-
-<!-- You can add screenshots here later -->
-<!-- ![Screenshot](path-to-screenshot.png) -->
-
----
-
 ## 🛠️ Tech Stack
 
 - **React** (with functional components and hooks)
