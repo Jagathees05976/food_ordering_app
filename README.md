@@ -20,8 +20,7 @@ A modern food delivery web application built using **React**, **Context API**, a
 - **React** (with functional components and hooks)
 - **Context API** for state management
 - **React Router DOM** for routing
-- **CSS / Styled Components / Tailwind** (depending on what you used)
-- Optional: any APIs or JSON-server for backend simulation
+- **CSS** for styling
 
 ---
 
