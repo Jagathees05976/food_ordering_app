@@ -23,6 +23,28 @@
     gap: 40px;
 }
 
+.search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-right .search input{
+    border: 1.5px solid rgb(85, 85, 106);
+    border-radius: 15px;
+    padding: 10px;
+    
+
+    &:hover,&:focus {
+        border: 2px solid tomato;
+        outline: none;
+    }
+
+    
+}
+
+
+
 .navbar button{
     background: transparent;
     font-size: 16px;

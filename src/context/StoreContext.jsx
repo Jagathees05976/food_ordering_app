@@ -5,7 +5,25 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) =>{
 
+    const [filteredFood,setFilteredFood] = useState([]);
+
     const [cartItems, setCartItems] = useState({});
+
+    const categoryFilter = (category) => {
+        if(category==="All"){
+            setFilteredFood(food_list);
+        }
+        else{
+            setFilteredFood(food_list.filter(item => item.category === category))
+        }
+    }
+    
+    const searchFilter = (searchText) => {
+        const regex = new RegExp(searchText, 'i');
+        setFilteredFood(food_list.filter(item => regex.test(item.name)))
+    }
+           
+    
 
     const addToCart = (itemId) =>{
 
@@ -36,6 +54,10 @@ const StoreContextProvider = (props) =>{
     }
 
     const contextValue = {
+        filteredFood,
+        setFilteredFood,
+        categoryFilter,
+        searchFilter,
         food_list,
         cartItems,
         setCartItems,
