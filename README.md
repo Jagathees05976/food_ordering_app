@@ -24,4 +24,9 @@ A modern food delivery web application built using **React**, **Context API**, a
 
 ---
 
+## 🚀 Deployment
+
+The project is live and accessible at: [https://food-ordering-app-two-mu.vercel.app/](https://food-ordering-app-two-mu.vercel.app/)
+
+
 
