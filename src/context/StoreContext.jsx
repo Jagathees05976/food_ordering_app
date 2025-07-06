@@ -27,7 +27,7 @@ const StoreContextProvider = (props) =>{
 
     const addToCart = (itemId) =>{
 
-        console.log(itemId);
+        //console.log(itemId);
 
         if(!cartItems[itemId]){
             
